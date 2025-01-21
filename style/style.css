@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-*{
+* {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-weight: auto;
@@ -18,60 +18,71 @@
     padding-bottom: 10px;
 }
 
-header{
+header {
     max-width: 1640px;
     margin: 0 auto;
-    /* margin-top: 20px; */
 }
-.mobile-ber{
+
+.mobile-ber {
     display: none;
 }
-.top-ber{
+
+.top-ber {
     display: flex;
     gap: 20px;
     align-items: center;
 }
-.top-ber h3{
-font-size: 3.6rem;
+
+.top-ber h3 {
+    font-size: 3.6rem;
 }
-.menu-ber ul{
+
+.menu-ber ul {
     display: flex;
     list-style: none;
     gap: 32px;
     align-items: center;
 }
-.first{
+
+.first {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.part-two{
+
+.part-two {
     display: flex;
 }
-.cnt-btn{
+
+.cnt-btn {
     margin-left: 130px;
 }
-.yellow{
+
+.yellow {
     font-size: 1.3rem;
     color: Orange;
     font-weight: 700;
 }
-.Sky-Blue{
+
+.Sky-Blue {
     font-size: 1.3rem;
     color: #01acfd;
     font-weight: 700;
 }
-.green{
+
+.green {
     font-size: 1.3rem;
     color: green;
     font-weight: 700;
 }
-.golapi{
+
+.golapi {
     font-size: 1.3rem;
     color: purple;
     font-weight: 700;
 }
-.cnt-btn{
+
+.cnt-btn {
     color: white;
     background-color: orange;
     padding: 20px 70px;
@@ -81,27 +92,31 @@ font-size: 3.6rem;
     font-weight: 700;
 }
 
-.hero-img{
+.hero-img {
     width: 670px;
     height: 800px;
 }
-.tittle-cnt h1{
+
+.tittle-cnt h1 {
     font-size: 5.6rem;
     margin-bottom: 0;
     width: 900px;
 }
-.tittle-cnt p{
+
+.tittle-cnt p {
     font-size: 1.8rem;
     width: 930px;
 }
 
-.orange{
+.orange {
     color: orange;
 }
-.blue{
+
+.blue {
     color: #01acfd;
 }
-.enrol-btn{
+
+.enrol-btn {
     color: white;
     background-color: black;
     padding: 20px 70px;
@@ -110,85 +125,101 @@ font-size: 3.6rem;
     font-size: 1.3rem;
     font-weight: 700;
 }
-.part-2-tittle{
+
+.part-2-tittle {
     margin-top: 100px;
     text-align: center;
     font-size: 3rem;
 }
-.Standard-Curriculum{
-    background-image: url('/assets/bg.png');
-    /* height: 761px; */
+
+.Standard-Curriculum {
+    background-image: url('./assets/bg.png');
 
 }
-.card-container{
+
+.card-container {
     display: flex;
     max-width: 1440px;
     margin: 0 auto;
     gap: 30px;
     text-align: center;
 }
-.card-1{
+
+.card-1 {
     border: 1px solid #DEF5FF;
     padding: 70px 0px;
     border-radius: 30px;
     background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
 }
-.card-1 h3{
+
+.card-1 h3 {
     font-size: 2rem;
 }
-.card-1 p{
+
+.card-1 p {
     color: #808080;
     width: 70%;
     margin: auto;
 }
-.card-1 h4{
+
+.card-1 h4 {
     color: #01acfd;
 }
-.card-2{
+
+.card-2 {
     border: 1px solid #FFF4DC;
     padding: 70px 0px;
     border-radius: 30px;
     background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
 }
-.card-2 h3{
+
+.card-2 h3 {
     font-size: 2rem;
 }
-.card-2 p{
+
+.card-2 p {
     color: #808080;
     width: 70%;
     margin: auto;
 }
-.card-2 h4{
+
+.card-2 h4 {
     color: orange;
 }
-.card-3{
+
+.card-3 {
     border: 1px solid #F2E8FF;
     padding: 70px 0px;
     border-radius: 30px;
     background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
 }
-.card-3 h3{
+
+.card-3 h3 {
     font-size: 2rem;
 }
-.card-3 p{
+
+.card-3 p {
     color: #808080;
     width: 70%;
     margin: auto;
 }
-.card-3 h4{
+
+.card-3 h4 {
     color: #8700FF;
 }
-.next-icon{
+
+.next-icon {
     display: flex;
     justify-content: center;
     gap: 30px;
-    text-align: center; 
+    text-align: center;
     justify-content: center;
     align-items: center;
     margin-top: 50px;
     margin-bottom: 144px;
 }
-.previous{
+
+.previous {
     color: white;
     font-size: 2rem;
     background-color: orange;
@@ -199,43 +230,50 @@ font-size: 3.6rem;
     align-items: center;
     display: flex;
 }
-.next{
+
+.next {
     color: white;
     font-size: 2rem;
     background-color: orange;
     width: 80px;
     height: 80px;
-    border-radius: 50%; 
+    border-radius: 50%;
     justify-content: center;
     align-items: center;
     display: flex;
 }
-.Stories h1{
+
+.Stories h1 {
     text-align: center;
     margin-bottom: 70px;
     font-size: 3.5rem;
 }
-.Our-Stories-background{
-    background: linear-gradient(to top, #f9e2b9, #FFFFFF);
+
+.Our-Stories-background {
+    /* background: linear-gradient(to top, #f9e2b9, #FFFFFF); */
     width: 100%;
     height: 1015px;
 }
-.Our-Stories{
+
+.Our-Stories {
     background-image: url('/assets/bg.png');
     max-width: 1640px;
     margin: 0 auto;
-    /* margin-top: 300px; */
-    /* display: flex; */
-    margin-right: 0%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    margin-left: 20%;
 }
-.story-date{
+
+.story-date-container {
+    text-align: center;
+    margin: auto;
     position: relative;
-    left: 50%;
-    transform: translate(-50%, -50%);
+}
+
+.story-date {
+    position: absolute;
+    right: 295px;
+    top: -60px;
     background-color: #00c4cc;
     border: none;
     color: #fff;
@@ -244,7 +282,8 @@ font-size: 3.6rem;
     border-radius: 20px;
     text-align: center;
 }
-.story-date-1{
+
+.story-date-1 {
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -254,9 +293,10 @@ font-size: 3.6rem;
     font-size: 12px;
     padding: 12px 30px;
     border-radius: 20px;
-    text-align: center; 
+    text-align: center;
 }
-.story-date-2{
+
+.story-date-2 {
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -266,9 +306,10 @@ font-size: 3.6rem;
     font-size: 12px;
     padding: 12px 30px;
     border-radius: 20px;
-    text-align: center; 
+    text-align: center;
 }
-.story-date-3{
+
+.story-date-3 {
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -278,9 +319,10 @@ font-size: 3.6rem;
     font-size: 12px;
     padding: 12px 30px;
     border-radius: 20px;
-    text-align: center; 
+    text-align: center;
 }
-.story-date-4{
+
+.story-date-4 {
     position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -290,53 +332,70 @@ font-size: 3.6rem;
     font-size: 12px;
     padding: 12px 30px;
     border-radius: 20px;
-    text-align: center; 
+    text-align: center;
 }
-.last-card img{
+
+.last-card img {
     width: 100%;
 }
-.last-card{
+
+.last-card {
     border: 1px solid white;
     background-color: white;
     border-radius: 10px;
 }
-.big-card{
+
+.big-card {
     border: 1px solid white;
     background-color: white;
     border-radius: 20px;
 }
-.big-card h3{
+
+.big-card h3 {
     font-size: 1.6rem;
     line-height: 1.5;
-    
+
 }
-.big-card p{
+
+.big-card p {
     font-size: 1.1rem;
     line-height: 1.5;
     color: #666666;
 }
 
-.big-card img, .four-card img{
+.big-card img,
+.four-card img {
     border-radius: 10px;
 }
-.four-card{
+
+.big-card img {
+    width: 100%;
+}
+
+.big-card-content {
+    padding: 30px;
+}
+
+.four-card {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(2, 1fr);
-    margin-right: 0; 
-    margin-bottom: 100px;
+    margin-right: 0;
 }
-.card-pera{
+
+.card-pera {
     font-size: 1.3rem;
     font-weight: 900;
     line-height: 1.6;
     margin-left: 20px;
 }
-.btn-view{
+
+.btn-view {
     text-align: center;
     margin-top: 100px;
 }
-.view-btn{
+
+.view-btn {
     padding: 19px 85px;
     border-radius: 20px;
     border: none;
@@ -345,70 +404,89 @@ font-size: 3.6rem;
     font-size: 1.5rem;
     font-weight: 700;
 }
-.footer{
+
+.footer {
     display: flex;
     gap: 130px;
     color: white;
-    margin-left: 20%; 
+    margin-left: 20%;
 }
+
 .foo-ter-1 {
     width: 30%;
 }
-.foo-ter-1 h3{
+
+.foo-ter-1 h3 {
     font-weight: 900;
     font-size: 1.2rem;
 }
-.logo-tittle{
+
+.logo-tittle {
     display: flex;
+    color: white;
 }
-.fotter-background{
+
+.fotter-background {
     background-color: #01ACFD;
     height: 619px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white; 
+    color: white;
     /* margin-bottom: 1000px; */
 }
-.fotter-moblile{
+
+.fotter-moblile {
     display: none;
 }
+
 @media screen and (max-width:572px) {
-    
-    .menu-ber, .top-ber, .next-icon, .big-card, .fotter-background{
+
+    .menu-ber,
+    .top-ber,
+    .next-icon,
+    .big-card,
+    .fotter-background {
         display: none;
     }
-    .part-two{
+
+    .part-two {
         display: flex;
         flex-direction: column-reverse;
         margin-top: 110px;
     }
-    .hero-img{
+
+    .hero-img {
         width: 100%;
         height: 100%;
     }
-    .tittle-cnt{
+
+    .tittle-cnt {
         max-width: 100%;
         margin-top: 30px;
     }
+
     .tittle-cnt h1 {
         margin-left: 0;
         font-size: 2rem;
         width: 100%;
         text-align: center;
     }
-    .tittle-cnt p{
+
+    .tittle-cnt p {
         font-size: 1rem;
         font-weight: 500;
         width: 100%;
         text-align: center;
     }
-    .for-mb{
+
+    .for-mb {
         text-align: center;
         margin-bottom: 50px;
-    } 
-    .mobile-ber{
+    }
+
+    .mobile-ber {
         display: flex;
         text-align: center;
         font-size: 3rem;
@@ -417,14 +495,17 @@ font-size: 3.6rem;
         width: 100%;
         justify-content: space-between;
     }
-    .part-2-tittle{
+
+    .part-2-tittle {
         margin-top: 0;
         font-size: 1rem;
     }
-    .card-container{
+
+    .card-container {
         flex-direction: column;
     }
-    .Our-Stories{
+
+    .Our-Stories {
         margin-left: 0%;
 
         max-width: auto;
@@ -437,10 +518,12 @@ font-size: 3.6rem;
         gap: 10px;
 
     }
-    .four-card{
+
+    .four-card {
         margin-bottom: 50px;
     }
-    .view-btn{
+
+    .view-btn {
         padding: 15px 50px;
         border-radius: 15px;
         border: none;
@@ -449,12 +532,14 @@ font-size: 3.6rem;
         font-size: 1rem;
         font-weight: 700;
     }
-    .last-card h2{
+
+    .last-card h2 {
         font-size: .7rem;
         margin-left: 10px;
         font-weight: bold;
     }
-    .fotter-moblile{
+
+    .fotter-moblile {
         display: block;
         margin-bottom: 500px;
         background-color: #01ACFD;
@@ -462,17 +547,21 @@ font-size: 3.6rem;
         margin: 0;
         color: white;
     }
-    .logo-tittle-1{
+
+    .logo-tittle-1 {
         display: flex;
     }
-    .mobile-show{
+
+    .mobile-show {
         font-size: 1rem;
         font-weight: 300;
     }
-    .btn-view{
+
+    .btn-view {
         margin-top: 0px;
     }
-    .Our-Stories-background{
+
+    .Our-Stories-background {
         height: 595px;
     }
 }
