@@ -6,6 +6,18 @@
     font-weight: auto;
     font-style: normal;
 }
+
+.main {
+    text-align: center;
+}
+
+.geek1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 10px;
+}
+
 header{
     max-width: 1640px;
     margin: 0 auto;
@@ -119,6 +131,7 @@ font-size: 3.6rem;
     border: 1px solid #DEF5FF;
     padding: 70px 0px;
     border-radius: 30px;
+    background: linear-gradient(to bottom, #DEF5FF, #FFFFFF);
 }
 .card-1 h3{
     font-size: 2rem;
@@ -135,6 +148,7 @@ font-size: 3.6rem;
     border: 1px solid #FFF4DC;
     padding: 70px 0px;
     border-radius: 30px;
+    background: linear-gradient(to bottom, #FFF4DC, #FFFFFF);
 }
 .card-2 h3{
     font-size: 2rem;
@@ -151,6 +165,7 @@ font-size: 3.6rem;
     border: 1px solid #F2E8FF;
     padding: 70px 0px;
     border-radius: 30px;
+    background: linear-gradient(to bottom, #F2E8FF, #FFFFFF);
 }
 .card-3 h3{
     font-size: 2rem;
@@ -200,6 +215,11 @@ font-size: 3.6rem;
     margin-bottom: 70px;
     font-size: 3.5rem;
 }
+.Our-Stories-background{
+    background: linear-gradient(to top, #f9e2b9, #FFFFFF);
+    width: 100%;
+    height: 1015px;
+}
 .Our-Stories{
     background-image: url('/assets/bg.png');
     max-width: 1640px;
@@ -212,8 +232,78 @@ font-size: 3.6rem;
     gap: 20px;
     margin-left: 20%;
 }
+.story-date{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #00c4cc;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 16px 39px;
+    border-radius: 20px;
+    text-align: center;
+}
+.story-date-1{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #95B226;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    text-align: center; 
+}
+.story-date-2{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #5D58F0;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    text-align: center; 
+}
+.story-date-3{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #95B226;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    text-align: center; 
+}
+.story-date-4{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #95B226;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 30px;
+    border-radius: 20px;
+    text-align: center; 
+}
 .last-card img{
     width: 100%;
+}
+.last-card{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+}
+.big-card{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 20px;
 }
 .big-card h3{
     font-size: 1.6rem;
@@ -227,7 +317,7 @@ font-size: 3.6rem;
 }
 
 .big-card img, .four-card img{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .four-card{
     display: grid;
@@ -244,7 +334,7 @@ font-size: 3.6rem;
 }
 .btn-view{
     text-align: center;
-    margin-bottom: 100px;
+    margin-top: 100px;
 }
 .view-btn{
     padding: 19px 85px;
@@ -273,7 +363,7 @@ font-size: 3.6rem;
 }
 .fotter-background{
     background-color: #01ACFD;
-    height: 519px;
+    height: 619px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -378,5 +468,11 @@ font-size: 3.6rem;
     .mobile-show{
         font-size: 1rem;
         font-weight: 300;
+    }
+    .btn-view{
+        margin-top: 0px;
+    }
+    .Our-Stories-background{
+        height: 595px;
     }
 }
