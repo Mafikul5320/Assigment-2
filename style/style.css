@@ -279,14 +279,14 @@ font-size: 3.6rem;
     align-items: center;
     justify-content: center;
     color: white; 
-    margin-bottom: 1000px;
+    /* margin-bottom: 1000px; */
 }
 .fotter-moblile{
     display: none;
 }
 @media screen and (max-width:572px) {
-
-    .menu-ber, .top-ber, .next-icon, .big-card{
+    
+    .menu-ber, .top-ber, .next-icon, .big-card, .fotter-background{
         display: none;
     }
     .part-two{
@@ -364,7 +364,19 @@ font-size: 3.6rem;
         margin-left: 10px;
         font-weight: bold;
     }
-    .fotter-background{
-        flex-direction: column;
+    .fotter-moblile{
+        display: block;
+        margin-bottom: 500px;
+        background-color: #01ACFD;
+        height: 542px;
+        margin: 0;
+        color: white;
+    }
+    .logo-tittle-1{
+        display: flex;
+    }
+    .mobile-show{
+        font-size: 1rem;
+        font-weight: 300;
     }
 }
